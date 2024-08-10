@@ -15,7 +15,7 @@ public class StaffsController {
 
     @GetMapping
     public ResponseEntity<List<String>> getStaffs(){
-         List<String> list = Arrays.asList("Ram", "Sam", "Sita");
+         List<String> list = Arrays.asList("Rakesh", "Sanjay", "Andrea");
          return new ResponseEntity<>(list, HttpStatus.OK);
 
     }
